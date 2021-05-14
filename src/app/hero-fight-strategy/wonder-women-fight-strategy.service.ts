@@ -7,8 +7,8 @@ import { IHeroFightStrategy } from './hero-fight-strategy';
 export class WonderWomenFightStrategyService implements IHeroFightStrategy {
 
   constructor() { }
-  choose(id: string): boolean {
-    return id === "3";
+  choose(id: number): boolean {
+    return id === 3;
   }
 
   fight(): void {

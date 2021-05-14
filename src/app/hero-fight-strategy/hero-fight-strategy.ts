@@ -1,4 +1,4 @@
 export interface IHeroFightStrategy {
-  choose(id: string): boolean;
+  choose(id: number): boolean;
   fight(): void;
 }

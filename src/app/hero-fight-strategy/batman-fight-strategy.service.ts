@@ -8,8 +8,8 @@ export class BatmanFightStrategyService implements IHeroFightStrategy {
 
   constructor() { }
 
-  choose(id: string): boolean {
-    return id === "2";
+  choose(id: number): boolean {
+    return id === 2;
   }
 
   fight(): void {
